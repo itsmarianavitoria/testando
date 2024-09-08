@@ -1,7 +1,6 @@
-nome = input("Digite seu nome: ")
-idade = int( input("Digite sua idade: ") )
-peso = float( input("Digite seu peso: ") )
+idade = int( input("Informe sua idade: ") )
 
-print(nome)
-print(type(idade))
-print(type(peso))
+if idade >= 18:
+    print("Permitido!")
+else:
+    print("Não permitido :(")
